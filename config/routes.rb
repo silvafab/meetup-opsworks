@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'static2/index'
+
   get 'static/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
